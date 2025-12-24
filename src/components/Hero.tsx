@@ -33,7 +33,7 @@ const Hero = () => {
              className="mb-8 opacity-0 animate-fade-up flex justify-center"
              style={{ animationDelay: "0.15s" }}
           >
-            <img src="/logo.png" alt="techKoodaram Logo" className="h-24 md:h-auto w-auto" />
+            <img src="/logo.png" alt="techKoodaram Logo" className="h-auto w-auto" />
           </div>
 
           {/* Main Heading */}
