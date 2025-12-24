@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MessageCircle, Mail, Github } from "lucide-react";
+import { ArrowRight, MessageCircle, Mail, Github, Linkedin } from "lucide-react";
 
 const JoinCTA = () => {
   return (
@@ -16,39 +16,42 @@ const JoinCTA = () => {
             Ready to enter the <span className="text-accent">koodaram</span>?
           </h2>
           <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto">
-            Join a community of over 500 curious minds from across Kerala and beyond. 
+            Join a community of curious minds from across towns from Sivakasi to Tenkasi. 
             No fees, no barriers — just good people sharing good knowledge.
           </p>
 
           {/* Primary CTA */}
-          <Button variant="hero" size="xl" className="mb-12">
-            Join the Community
-            <ArrowRight size={20} />
+          <Button 
+            variant="hero" 
+            size="xl" 
+            className="mb-12"
+            onClick={() => window.open("https://www.linkedin.com/company/techkoodaram/", "_blank")}
+          >
+            Follow us on LinkedIn
+            <Linkedin size={20} className="ml-2" />
           </Button>
 
           {/* Social/Contact Links */}
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <a 
-              href="#" 
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border/50 text-muted-foreground hover:text-foreground hover:border-accent/30 transition-all duration-200"
-            >
-              <MessageCircle size={18} />
-              <span className="text-sm font-medium">Discord</span>
-            </a>
-            <a 
-              href="#" 
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border/50 text-muted-foreground hover:text-foreground hover:border-accent/30 transition-all duration-200"
-            >
-              <Github size={18} />
-              <span className="text-sm font-medium">GitHub</span>
-            </a>
-            <a 
-              href="#" 
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border/50 text-muted-foreground hover:text-foreground hover:border-accent/30 transition-all duration-200"
-            >
-              <Mail size={18} />
-              <span className="text-sm font-medium">Newsletter</span>
-            </a>
+         
+         
+          {/* Location Emphasis */}
+          <div className="mt-16 pt-8 border-t border-border/30">
+            <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+              Building a tech ecosystem for
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-base md:text-lg font-medium text-foreground/80">
+              <span>Sivakasi</span>
+              <span className="text-accent">•</span>
+              <span>Rajapalayam</span>
+              <span className="text-accent">•</span>
+              <span>Srivilliputhur</span>
+              <span className="text-accent">•</span>
+              <span>Sankarankovil</span>
+              <span className="text-accent">•</span>
+              <span>Kovilpatti</span>
+              <span className="text-accent">•</span>
+              <span>Tenkasi</span>
+            </div>
           </div>
         </div>
       </div>

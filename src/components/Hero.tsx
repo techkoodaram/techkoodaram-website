@@ -20,36 +20,32 @@ const Hero = () => {
 
       <div className="container relative z-10 mx-auto py-12 md:py-20">
         <div className="max-w-3xl mx-auto text-center">
-          {/* Badge */}
-          <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/80 backdrop-blur-sm border border-border/50 mb-8 opacity-0 animate-fade-up"
-            style={{ animationDelay: "0.1s" }}
-          >
-            <span className="text-sm text-muted-foreground">Coming Soon</span>
-          </div>
+
 
           {/* Logo */}
-          <div 
+          {/* <div 
              className="mb-8 opacity-0 animate-fade-up flex justify-center"
              style={{ animationDelay: "0.15s" }}
           >
             <img src="/logo.png" alt="techKoodaram Logo" className="h-auto w-auto" />
-          </div>
+          </div> */}
 
           {/* Main Heading */}
           <h1 
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-           is <span className="text-accent">coming soon.</span>
+           Welcome to <span className="text-accent">techKoodaram</span>
           </h1>
 
-          {/* Subheading */}
+          {/* <p className="text-xl md:text-2xl font-medium text-accent mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+            Talent exists everywhere. Access doesn’t.
+          </p> */}
           <p 
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            Join us in our community via Whatsapp for now.
+            Learn. Share. Build.
           </p>
 
           {/* CTA Buttons */}
@@ -66,6 +62,7 @@ const Hero = () => {
               <ArrowRight size={20} />
             </Button>
           </div>
+          
         </div>
       </div>
 

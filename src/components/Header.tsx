@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -8,11 +8,11 @@ const Header = () => {
   const location = useLocation();
 
   const navItems = [
-    { label: "About", href: "/#about" },
-    { label: "Community", href: "/#community" },
-    { label: "Gatherings", href: "/#gatherings" },
-    { label: "Blog", href: "/#blog" },
-    { label: "Products", href: "/products" },
+    // { label: "About", href: "/#about" },
+    // { label: "Community", href: "/#community" },
+    // { label: "Gatherings", href: "/#gatherings" },
+    // { label: "Blog", href: "/#blog" },
+    // { label: "Products", href: "/products" },
   ];
 
   const isActive = (href: string) => {
@@ -26,12 +26,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg md:text-xl">t</span>
+            <div className="flex items-center gap-2">
+              <img src="/logo.png" alt="techKoodaram Logo" className="h-8 md:h-10 w-auto" />
             </div>
-            <span className="font-medium text-lg md:text-xl text-foreground">
-              tech<span className="text-accent">Koodaram</span>
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -59,8 +56,14 @@ const Header = () => {
                 </Link>
               )
             ))}
-            <Button variant="hero" size="sm">
-              Join Us
+            <Button 
+              variant="outline" 
+              size="sm"
+              onClick={() => window.open("https://github.com/techkoodaram", "_blank")}
+              className="gap-2"
+            >
+              <Github size={16} />
+              GitHub
             </Button>
           </nav>
 
@@ -99,8 +102,13 @@ const Header = () => {
                   </Link>
                 )
               ))}
-              <Button variant="hero" className="mt-2">
-                Join Us
+              <Button 
+                variant="outline" 
+                className="mt-2 gap-2"
+                onClick={() => window.open("https://github.com/techkoodaram", "_blank")}
+              >
+                <Github size={16} />
+                GitHub
               </Button>
             </div>
           </nav>
