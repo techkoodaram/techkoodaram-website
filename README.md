@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+# techKoodaram 🌱
 
-## Project info
+**techKoodaram** is a grassroots tech community built to connect **students, professionals, and aspiring builders** from small towns and villages across Tamil Nadu.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+We believe talent is everywhere — access is not.  
+techKoodaram exists to fix that.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌍 What is techKoodaram?
 
-**Use Lovable**
+techKoodaram (கூடாரம் = tent) is a safe, open space where people come together to:
+- Learn technology
+- Share real-world experience
+- Build confidence
+- Create local impact
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+We focus on **towns between Sivakasi and Tenkasi**, starting small and growing strong.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Why techKoodaram exists
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Many students don’t get exposure beyond classrooms
+- Professionals want to give back but don’t know where to start
+- Villages and small towns deserve quality tech conversations
+- Diversity matters — voices from women and students matter
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This is not a conference.  
+This is a **community-first movement**.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧠 What we do
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 🎤 Tech talks by industry professionals
+- 🎓 Student-led sessions and learning stories
+- 🤝 Networking without hierarchy
+- 🌱 Encourage women participation in tech
+- 🏫 Collaborations with colleges and local institutions
 
-# Step 3: Install the necessary dependencies.
-npm i
+Simple talks. Real stories. Practical learning.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 👥 Who can join?
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- College students (especially from rural backgrounds)
+- IT professionals
+- Aspiring entrepreneurs
+- Educators and placement officers
+- Anyone curious about technology
 
-**Use GitHub Codespaces**
+No fees. No gatekeeping. Just intent.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🗓️ Events
 
-This project is built with:
+- Offline meetups
+- College-hosted tech talks
+- Panel discussions with mixed experience levels
+- Community-driven sessions
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Each event aims to leave people **clearer and more confident** than before.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🧩 Website purpose
 
-## Can I connect a custom domain to my Lovable project?
+This website is used to:
+- Share community vision
+- Announce events
+- Highlight speakers
+- Document past meetups
+- Help people discover and join techKoodaram
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🛠️ Tech Stack (example)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Frontend: HTML / CSS / JavaScript / React (if applicable)
+- Fonts: Google Fonts (Roboto)
+- Hosting: Vercel
+- Domain: Custom domain via Hostinger
+
+(Keep this updated as the project evolves.)
+
+---
+
+## 🤝 Want to collaborate?
+
+We welcome:
+- Speakers
+- College partnerships
+- Volunteers
+- Sponsors (community-aligned only)
+
+Reach out. Let’s build this together.
+
+---
+
+## 🚀 Vision
+
+To build a **self-sustaining, inclusive tech ecosystem** rooted in local communities — where students don’t feel small and professionals stay grounded.
+
+Small towns. Big confidence.
+
+---
+
+## 📜 License
+
+This project and community content follow an open and respectful sharing mindset.  
+Use with credit. Build with responsibility.
+
+---
+
+**techKoodaram**  
+_A tent for technology, learning, and people._
