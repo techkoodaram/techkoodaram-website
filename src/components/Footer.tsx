@@ -1,4 +1,4 @@
-import { Heart, Linkedin } from "lucide-react";
+import { Heart, Linkedin, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -14,7 +14,14 @@ const Footer = () => {
           </Link>
 
           {/* Links */}
-          
+          <div className="flex gap-4">
+             <a href="https://www.instagram.com/techkoodaram/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram">
+                <Instagram size={20} />
+             </a>
+              <a href="https://www.linkedin.com/company/techkoodaram/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" aria-label="LinkedIn">
+                <Linkedin size={20} />
+             </a>
+          </div>
 
           {/* Copyright */}
           <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
