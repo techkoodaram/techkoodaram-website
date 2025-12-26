@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.png" alt="techKoodaram Logo" className="h-8 w-auto" />
+            <img src="/logo.png" alt="techKoodaram Logo" className="w-[230px]" />
           </Link>
 
           {/* Links */}
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
             <span>Made with</span>
             <Heart size={14} className="text-accent fill-accent" />
-            <span>in South Tamil Nadu</span>
+            <span>by techKoodaram team</span>
           </div>
         </div>
 

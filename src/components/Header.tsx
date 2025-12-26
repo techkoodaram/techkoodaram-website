@@ -27,7 +27,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="techKoodaram Logo" className="h-8 md:h-10 w-auto" />
+              <img src="/logo.png" alt="techKoodaram Logo" className="w-[230px]" />
             </div>
           </Link>
 

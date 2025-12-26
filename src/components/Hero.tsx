@@ -45,7 +45,7 @@ const Hero = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            Learn. Share. Build.
+            Learn.Build.Share.
           </p>
 
           {/* CTA Buttons */}
