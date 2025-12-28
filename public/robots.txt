@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techkoodaram.com/sitemap.xml
+Sitemap: https://techkoodaram.in/sitemap.xml
