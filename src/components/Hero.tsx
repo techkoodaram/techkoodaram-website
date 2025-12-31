@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Mic } from "lucide-react";
 import heroImage from "@/assets/hero-gathering.jpg";
 
 const Hero = () => {
@@ -31,17 +31,17 @@ const Hero = () => {
           </div> */}
 
           {/* Main Heading */}
-          <h1 
+          <h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-           Welcome to <span className="text-accent">techKoodaram</span>
+            Welcome to <span className="text-accent">techKoodaram</span>
           </h1>
 
           {/* <p className="text-xl md:text-2xl font-medium text-accent mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Talent exists everywhere. Access doesn’t.
           </p> */}
-          <p 
+          <p
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
@@ -49,20 +49,30 @@ const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div 
+          <div
             className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.4s" }}
           >
-            <Button 
-                variant="hero" 
-                size="xl"
-                onClick={() => window.open("https://chat.whatsapp.com/JnWLnxuQAZm9pIZNUWk9Nk", "_blank")}
+            <Button
+              variant="hero"
+              size="xl"
+              onClick={() => window.open("https://chat.whatsapp.com/JnWLnxuQAZm9pIZNUWk9Nk", "_blank")}
             >
               Join via WhatsApp
               <ArrowRight size={20} />
             </Button>
+
+            <Button
+              variant="outline"
+              size="xl"
+              className="border-primary text-primary hover:bg-primary/10"
+              onClick={() => window.open("https://www.linkedin.com/posts/techkoodaram_were-opening-speaker-slots-for-our-activity-7411979485962760193-T5IE/", "_blank")}
+            >
+              Call for Speaker
+              <Mic size={20} />
+            </Button>
           </div>
-          
+
         </div>
       </div>
 
